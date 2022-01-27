@@ -34,7 +34,7 @@ pipeline {
 	stage('Commit dependency updates') {
 		steps {
 			sh 'mvn versions:commit'
-			sh 'mvn -Dmessage="updateing dependencies" scm:checkin'
+			//sh 'mvn -Dmessage="updateing dependencies" scm:checkin'
 		}
 	}
         stage('Sonar') {
