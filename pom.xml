@@ -18,6 +18,7 @@
     <sonar.host.url>http://192.168.1.108:9000/sonar</sonar.host.url>
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
     <sonar.junit.reportsPath>target/surefire-reports</sonar.junit.reportsPath>
+    <sonar.coverage.jacoco.xmlReportPaths>target/surefire-reports</sonar.coverage.jacoco.xmlReportPaths>
     <sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
     <sonar.exclusions>
       **/*jquery*.js,
